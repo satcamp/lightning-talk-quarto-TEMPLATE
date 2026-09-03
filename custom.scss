@@ -111,18 +111,6 @@ $presentation-h2-font-size: 1.8em;
   display: none !important;
 }
 
-/* Custom slide number (1-20 for content slides) */
-#custom-slide-num {
-  position: fixed;
-  bottom: 10px;
-  right: 14px;
-  font-family: 'Sulphur Point', sans-serif;
-  font-size: 0.7em;
-  color: #09e57b;
-  z-index: 50;
-  pointer-events: none;
-}
-
 /* Countdown bar: right-to-left, above the progress bar */
 #slide-countdown {
   position: fixed;

@@ -468,11 +468,6 @@ Replace with your own links
 ```{=html}
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  // Custom slide number: show 1-20 for slides 2-21 (index 1-20), hide for title (0) and applause (21)
-  var numEl = document.createElement('div');
-  numEl.id = 'custom-slide-num';
-  document.querySelector('.reveal').appendChild(numEl);
-
   // Countdown bar: sits above the RevealJS progress bar, runs right-to-left per slide
   var cdBar = document.createElement('div');
   cdBar.id = 'slide-countdown';
@@ -486,18 +481,8 @@ document.addEventListener('DOMContentLoaded', function () {
     fill.style.animation = '';
   }
 
-  function updateNum() {
-    var idx = Reveal.getState().indexh;
-    if (idx >= 1 && idx <= 20) {
-      numEl.textContent = idx;
-      numEl.style.display = '';
-    } else {
-      numEl.style.display = 'none';
-    }
-  }
-
-  Reveal.on('slidechanged', function () { resetCountdown(); updateNum(); });
-  Reveal.on('ready', function () { resetCountdown(); updateNum(); });
+  Reveal.on('slidechanged', resetCountdown);
+  Reveal.on('ready', resetCountdown);
 });
 </script>
 ```
