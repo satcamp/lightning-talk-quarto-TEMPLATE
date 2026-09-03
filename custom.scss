@@ -60,13 +60,19 @@ $presentation-h2-font-size: 1.8em;
 }
 
 .center-v {
+  position: absolute;
+  inset: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
   text-align: center;
   gap: 1rem;
+}
+
+/* Hide the empty h2 that Quarto generates for title-less slides */
+.reveal .slides section > h2:empty {
+  display: none;
 }
 
 .reveal .muted {

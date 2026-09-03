@@ -17,6 +17,8 @@ format:
     width: 1600
     height: 900
     chalkboard: false
+title-slide-attributes:
+  data-background-color: "#0a0a0a"
 ---
 
 <!-- ─── Slide 1: Title (from YAML above) ─── -->
@@ -24,7 +26,7 @@ format:
 <!--
 Presenter notes (press `p` for presenter mode):
 - This deck auto-advances every 15s — the top progress bar counts down each slide (right-to-left); the bottom bar shows overall progress (left-to-right).
-- 22 slides × 15s ≈ 5-minute lightning talk. Auto-advance cannot be paused.
+- 23 slides × 15s ≈ 5:45 (delete the "Make it yours" slide when done to return to 22 × 15s = 5 min). Auto-advance cannot be paused.
 - Press `o` for slide overview, `f` for fullscreen.
 -->
 
@@ -262,7 +264,24 @@ Presenter notes (press `p` for presenter mode):
 
 ## {background-color="#0a0a0a"}
 
-<!-- Slide 12: [Your Hook] — template slide -->
+<!-- Slide 12: Personalize this deck — delete this slide when ready -->
+
+::: {.center-v}
+### Make it yours
+
+1. **YAML header** (top of `index.qmd`) — update the title, subtitle & author
+2. **Slides 13–18** — fill in **[Hook]**, **[Problem]**, **[Idea]**, **[Steps]**, **[Demo]** & **[Results]**
+3. **Slide 22 (Links)** — replace with your own references and URLs
+4. Delete slides you don't need · add more if your story requires them
+
+::: {.muted}
+Delete this slide when your deck is ready · `auto-slide: 15000` controls the pace (ms)
+:::
+:::
+
+## {background-color="#0a0a0a"}
+
+<!-- Slide 13: [Your Hook] — template slide -->
 
 ::: {.center-v}
 <svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
