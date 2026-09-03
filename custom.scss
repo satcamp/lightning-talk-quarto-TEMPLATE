@@ -138,3 +138,15 @@ $presentation-h2-font-size: 1.8em;
   from { transform: scaleX(1); }
   to   { transform: scaleX(0); }
 }
+
+@keyframes clap {
+  from { transform: rotate(-15deg) scale(1.0); }
+  to   { transform: rotate(15deg) scale(1.15); }
+}
+
+.clap-anim {
+  font-size: 8rem;
+  line-height: 1;
+  display: inline-block;
+  animation: clap 0.5s ease-in-out infinite alternate;
+}
