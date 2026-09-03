@@ -19,7 +19,7 @@ jobs:
           version: "latest"
 
       - name: Install Python dependencies
-        run: uv sync
+        run: uv sync --frozen
 
       - uses: quarto-dev/quarto-actions/setup@v2
 

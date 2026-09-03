@@ -9,7 +9,8 @@ Slides auto-advance every 15 seconds (22 × 15s ≈ 5 minutes).
 2. Run `uv sync` to set up the Python environment
 3. Edit `index.qmd` — update the title, author, and slide content
 4. Preview: `uv run quarto preview`
-5. Push to `main` — GitHub Actions will build and deploy to GitHub Pages
+5. Push to `main` — GitHub Actions will build and push to the `gh-pages` branch
+6. Enable GitHub Pages: go to **Settings → Pages**, set Source to **Deploy from branch**, branch **`gh-pages`**, folder **`/ (root)`**
 
 ## Tips
 
