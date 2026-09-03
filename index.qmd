@@ -6,7 +6,8 @@ format:
   revealjs:
     theme: [default, custom.scss]
     auto-slide: 15000
-    slide-number: "c/t"
+    auto-slide-stoppable: false
+    slide-number: false
     progress: true
     navigation-mode: linear
     controls: false
@@ -22,9 +23,8 @@ format:
 
 <!--
 Presenter notes (press `p` for presenter mode):
-- This deck auto-advances every 15s — the progress bar at the bottom counts down.
-- 22 slides × 15s ≈ 5-minute lightning talk.
-- Press `a` to pause/resume auto-advance.
+- This deck auto-advances every 15s — the top progress bar counts down each slide (right-to-left); the bottom bar shows overall progress (left-to-right).
+- 22 slides × 15s ≈ 5-minute lightning talk. Auto-advance cannot be paused.
 - Press `o` for slide overview, `f` for fullscreen.
 -->
 
@@ -462,5 +462,42 @@ Replace with your own links
   <line x1="380" y1="155" x2="415" y2="225" stroke="#09e57b" stroke-width="5"/>
 </svg>
 
-# 👏
+<div style="font-size: 8rem; line-height: 1;">👏</div>
 :::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Custom slide number: show 1-20 for slides 2-21 (index 1-20), hide for title (0) and applause (21)
+  var numEl = document.createElement('div');
+  numEl.id = 'custom-slide-num';
+  document.querySelector('.reveal').appendChild(numEl);
+
+  // Countdown bar: sits above the RevealJS progress bar, runs right-to-left per slide
+  var cdBar = document.createElement('div');
+  cdBar.id = 'slide-countdown';
+  cdBar.innerHTML = '<div id="slide-countdown-fill"></div>';
+  document.querySelector('.reveal').appendChild(cdBar);
+
+  function resetCountdown() {
+    var fill = document.getElementById('slide-countdown-fill');
+    fill.style.animation = 'none';
+    fill.offsetHeight; // force reflow
+    fill.style.animation = '';
+  }
+
+  function updateNum() {
+    var idx = Reveal.getState().indexh;
+    if (idx >= 1 && idx <= 20) {
+      numEl.textContent = idx;
+      numEl.style.display = '';
+    } else {
+      numEl.style.display = 'none';
+    }
+  }
+
+  Reveal.on('slidechanged', function () { resetCountdown(); updateNum(); });
+  Reveal.on('ready', function () { resetCountdown(); updateNum(); });
+});
+</script>
+```

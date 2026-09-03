@@ -15,6 +15,6 @@ Slides auto-advance every 15 seconds (22 × 15s ≈ 5 minutes).
 ## Tips
 
 - Press `o` for slide overview, `f` for fullscreen, `p` for presenter notes
-- Auto-advance is enabled by default; press `a` to toggle it during the talk
+- Auto-advance runs continuously and cannot be paused — keep your talk tight!
 - Replace placeholder SVG slides with your own content
 - Slides 12–18 are blank template slides for your talk content
