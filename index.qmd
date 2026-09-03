@@ -21,15 +21,6 @@ title-slide-attributes:
   data-background-color: "#0a0a0a"
 ---
 
-<!-- ─── Slide 1: Title (from YAML above) ─── -->
-
-<!--
-Presenter notes (press `p` for presenter mode):
-- This deck auto-advances every 15s — the top progress bar counts down each slide (right-to-left); the bottom bar shows overall progress (left-to-right).
-- 23 slides × 15s ≈ 5:45 (delete the "Make it yours" slide when done to return to 22 × 15s = 5 min). Auto-advance cannot be paused.
-- Press `o` for slide overview, `f` for fullscreen.
--->
-
 ## {background-color="#0a0a0a"}
 
 <!-- Slide 2: What is SatCamp? -->
@@ -149,11 +140,11 @@ Presenter notes (press `p` for presenter mode):
 
 ## {background-color="#0a0a0a"}
 
-<!-- Slide 7: 22 × 15s = 5 min -->
+<!-- Slide 7: 20 × 15s = 5 min -->
 
 ::: {.center-v}
 ::: {.formula}
-[22]{.highlight} slides  ×  [15]{.highlight} seconds  =  **5 minutes**
+[20]{.highlight} slides  ×  [15]{.highlight} seconds  =  **5 minutes**
 :::
 :::
 
@@ -264,24 +255,7 @@ Presenter notes (press `p` for presenter mode):
 
 ## {background-color="#0a0a0a"}
 
-<!-- Slide 12: Personalize this deck — delete this slide when ready -->
-
-::: {.center-v}
-### Make it yours
-
-1. **YAML header** (top of `index.qmd`) — update the title, subtitle & author
-2. **Slides 13–18** — fill in **[Hook]**, **[Problem]**, **[Idea]**, **[Steps]**, **[Demo]** & **[Results]**
-3. **Slide 22 (Links)** — replace with your own references and URLs
-4. Delete slides you don't need · add more if your story requires them
-
-::: {.muted}
-Delete this slide when your deck is ready · `auto-slide: 15000` controls the pace (ms)
-:::
-:::
-
-## {background-color="#0a0a0a"}
-
-<!-- Slide 13: [Your Hook] — template slide -->
+<!-- Slide 12: [Your Hook] — template slide -->
 
 ::: {.center-v}
 <svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
@@ -413,40 +387,7 @@ Delete this slide when your deck is ready · `auto-slide: 15000` controls the pa
 
 ## {background-color="#0a0a0a"}
 
-<!-- Slide 18: Past SatCamp talks -->
-
-::: {.center-v}
-<svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="100" cy="35" r="28" stroke="#09e57b" stroke-width="5" fill="none"/>
-  <line x1="100" y1="63" x2="100" y2="155" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="95" x2="50" y2="125" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="95" x2="150" y2="125" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="155" x2="65" y2="220" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="155" x2="135" y2="220" stroke="#09e57b" stroke-width="5"/>
-</svg>
-
-### Past talks → [satcamp.xyz](https://satcamp.xyz)
-:::
-
-## {background-color="#0a0a0a"}
-
-<!-- Slide 19: Get involved -->
-
-::: {.center-v}
-<svg viewBox="0 0 300 160" width="300" height="160" xmlns="http://www.w3.org/2000/svg">
-  <!-- two hands meeting -->
-  <path d="M 60 80 Q 90 40 150 80 Q 210 120 240 80" stroke="#09e57b" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <circle cx="60" cy="80" r="12" fill="#09e57b" opacity="0.5"/>
-  <circle cx="240" cy="80" r="12" fill="#09e57b" opacity="0.5"/>
-  <circle cx="150" cy="80" r="16" fill="#09e57b"/>
-</svg>
-
-### Join us — [satcamp.xyz](https://satcamp.xyz)
-:::
-
-## {background-color="#0a0a0a"}
-
-<!-- Slide 20: Use this template -->
+<!-- Slide 18: Use this template -->
 
 ::: {.center-v}
 <svg viewBox="0 0 300 160" width="300" height="160" xmlns="http://www.w3.org/2000/svg">
@@ -460,12 +401,29 @@ Delete this slide when your deck is ready · `auto-slide: 15000` controls the pa
   <path d="M 200 85 Q 200 112 150 112" stroke="#09e57b" stroke-width="4" fill="none"/>
 </svg>
 
-### [Create a repository from this template](https://github.com/new?template_name=lightning-talk-quarto-TEMPLATE&template_owner=satcamp)
+<a href="https://github.com/new?template_name=lightning-talk-quarto-TEMPLATE&template_owner=satcamp" style="color:#09e57b; text-decoration:underline; font-size:1.6rem;">Create a repository from this template</a>
 :::
 
 ## {background-color="#0a0a0a"}
 
-<!-- Slide 21: Resources -->
+<!-- Slide 19: Make it yours — delete this slide when ready -->
+
+::: {.center-v}
+### Make it yours
+
+1. **YAML header** (top of `index.qmd`) — update the title, subtitle & author
+2. **Slides 12–17** — fill in **[Hook]**, **[Problem]**, **[Idea]**, **[Steps]**, **[Demo]** & **[Results]**
+3. **Slide 20 (Links)** — replace with your own references and URLs
+4. Delete slides you don't need · add more if your story requires them
+
+::: {.muted}
+Delete this slide when your deck is ready · `auto-slide: 15000` controls the pace (ms)
+:::
+:::
+
+## {background-color="#0a0a0a"}
+
+<!-- Slide 20: Resources -->
 
 ::: {.center-v}
 ### Links
@@ -481,7 +439,7 @@ Replace with your own links
 
 ## {background-color="#0a0a0a"}
 
-<!-- Slide 22: Please clap! -->
+<!-- Slide 21: Please clap! -->
 
 ::: {.center-v}
 <svg viewBox="0 0 500 260" width="500" height="260" xmlns="http://www.w3.org/2000/svg">
