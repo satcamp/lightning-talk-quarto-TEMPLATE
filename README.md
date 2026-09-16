@@ -29,13 +29,10 @@ uv sync
 uv run quarto preview
 ```
 
-Open the preview URL in your browser. The deck auto-advances — append `?noauto` to the URL to pause auto-advance during editing.
+Open the preview URL in your browser. The deck auto-advances — append `?autoSlide=0` to the URL (e.g. `http://localhost:4200/?autoSlide=0`) to turn off auto-advance during editing.
 
 ---
 
 ## What to edit
 
-| What | Where |
-|---|---|
-| Talk title, author, subtitle | Top of `index.qmd` (YAML frontmatter) |
-| Your 20 content slides | Slides 12–17 — replace `[Hook]`, `[Problem]`, `[Idea]`, `[Steps]`, `[Demo]`, `[Results]` |
+Edit the `index.md` file to update the slide content.
