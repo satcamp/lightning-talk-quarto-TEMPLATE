@@ -15,11 +15,12 @@ A [Quarto RevealJS](https://quarto.org/docs/presentations/revealjs/) template fo
    - Under **Source**, select **GitHub Actions**
    - Push any change to `main` — the workflow in `.github/workflows/publish.yml` will build and deploy automatically
    - Your deck will be live at `https://<your-username>.github.io/<repo-name>/`
-4. Clone your repo locally and follow the local setup steps below
 
 ---
 
 ## Local Setup / Development
+
+Clone your repo locally:
 
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
