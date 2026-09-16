@@ -37,8 +37,4 @@ Open the preview URL in your browser. The deck auto-advances — append `?noauto
 | What | Where |
 |---|---|
 | Talk title, author, subtitle | Top of `index.qmd` (YAML frontmatter) |
-| Your 6 content slides | Slides 12–17 — replace `[Hook]`, `[Problem]`, `[Idea]`, `[Steps]`, `[Demo]`, `[Results]` |
-| Links slide | Slide 20 — replace the satcamp.xyz links with your own |
-| Slide timing | `auto-slide: 15000` in the YAML frontmatter (value in milliseconds) |
-
-**Before presenting:** delete slide 19 ("Make it yours") so the deck has exactly 20 slides.
+| Your 20 content slides | Slides 12–17 — replace `[Hook]`, `[Problem]`, `[Idea]`, `[Steps]`, `[Demo]`, `[Results]` |
