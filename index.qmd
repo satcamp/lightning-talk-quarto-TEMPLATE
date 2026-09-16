@@ -21,7 +21,7 @@ title-slide-attributes:
   data-background-color: "#0a0a0a"
 ---
 
-## {background-color="#0a0a0a"}
+## {#slide-1 background-color="#0a0a0a"}
 
 <!-- Slide 2: What is SatCamp? -->
 
@@ -39,7 +39,7 @@ title-slide-attributes:
 ### Satellite **+** Camp
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-2 background-color="#0a0a0a"}
 
 <!-- Slide 3: Community -->
 
@@ -84,7 +84,7 @@ title-slide-attributes:
 ### Earth observation community
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-3 background-color="#0a0a0a"}
 
 <!-- Slide 4: Where we meet -->
 
@@ -102,7 +102,7 @@ title-slide-attributes:
 ### Colorado, USA
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-4 background-color="#0a0a0a"}
 
 <!-- Slide 5: Two session types -->
 
@@ -121,7 +121,7 @@ title-slide-attributes:
 :::
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-5 background-color="#0a0a0a"}
 
 <!-- Slide 6: Lightning Talks — stick figure at podium -->
 
@@ -138,7 +138,7 @@ title-slide-attributes:
 ### ⚡ 5 minutes to share anything
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-6 background-color="#0a0a0a"}
 
 <!-- Slide 7: 20 × 15s = 5 min -->
 
@@ -148,7 +148,7 @@ title-slide-attributes:
 :::
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-7 background-color="#0a0a0a"}
 
 <!-- Slide 8: One idea per slide -->
 
@@ -168,7 +168,7 @@ title-slide-attributes:
 ### One slide. One idea.
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-8 background-color="#0a0a0a"}
 
 <!-- Slide 9: Show & Tell -->
 
@@ -198,7 +198,7 @@ title-slide-attributes:
 ### 🎤 Show & Tell — no slides required
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-9 background-color="#0a0a0a"}
 
 <!-- Slide 10: How Show & Tell works -->
 
@@ -222,7 +222,7 @@ title-slide-attributes:
 ### Demo → Questions → Iterate
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-10 background-color="#0a0a0a"}
 
 <!-- Slide 11: Why share? -->
 
@@ -253,26 +253,19 @@ title-slide-attributes:
 ### Sharing sparks new ideas
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-11 background-color="#0a0a0a"}
 
 <!-- Slide 12: [Your Hook] — template slide -->
 
 ::: {.center-v}
-<svg viewBox="0 0 200 240" width="200" height="240" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="100" cy="35" r="28" stroke="#09e57b" stroke-width="5" fill="none"/>
-  <line x1="100" y1="63" x2="100" y2="155" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="95" x2="50" y2="125" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="95" x2="150" y2="125" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="155" x2="65" y2="220" stroke="#09e57b" stroke-width="5"/>
-  <line x1="100" y1="155" x2="135" y2="220" stroke="#09e57b" stroke-width="5"/>
-</svg>
+<img src="https://satcamp.xyz/assets/logistics-BLk3ooeQ.jpg" style="max-height: 420px; border-radius: 8px;">
 
 ### **[Your hook here]** {.muted}
 
 [Replace this slide with your opening line]{.muted}
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-12 background-color="#0a0a0a"}
 
 <!-- Slide 13: [The Problem] — template slide -->
 
@@ -294,7 +287,7 @@ title-slide-attributes:
 [What's broken or missing?]{.muted}
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-13 background-color="#0a0a0a"}
 
 <!-- Slide 14: [The Big Idea] — template slide -->
 
@@ -313,7 +306,7 @@ title-slide-attributes:
 [Your core insight in one sentence]{.muted}
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-14 background-color="#0a0a0a"}
 
 <!-- Slide 15: [How It Works] — template slide -->
 
@@ -339,7 +332,7 @@ title-slide-attributes:
 [Step 1 → Step 2 → Step 3]{.muted}
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-15 background-color="#0a0a0a"}
 
 <!-- Slide 16: [Live Demo] — template slide -->
 
@@ -361,7 +354,7 @@ title-slide-attributes:
 [Screenshot, GIF, or live walkthrough]{.muted}
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-16 background-color="#0a0a0a"}
 
 <!-- Slide 17: [Results] — template slide -->
 
@@ -385,7 +378,7 @@ title-slide-attributes:
 [One metric that got measurably better]{.muted}
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-17 background-color="#0a0a0a"}
 
 <!-- Slide 18: Use this template -->
 
@@ -404,7 +397,7 @@ title-slide-attributes:
 <a href="https://github.com/new?template_name=lightning-talk-quarto-TEMPLATE&template_owner=satcamp" style="color:#09e57b; text-decoration:underline; font-size:1.6rem;">Create a repository from this template</a>
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-18 background-color="#0a0a0a"}
 
 <!-- Slide 19: Make it yours — delete this slide when ready -->
 
@@ -421,7 +414,7 @@ Delete this slide when your deck is ready · `auto-slide: 15000` controls the pa
 :::
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-19 background-color="#0a0a0a"}
 
 <!-- Slide 20: Resources -->
 
@@ -437,7 +430,7 @@ Replace with your own links
 :::
 :::
 
-## {background-color="#0a0a0a"}
+## {#slide-applause background-color="#0a0a0a"}
 
 <!-- Slide 21: Please clap! -->
 
@@ -463,6 +456,10 @@ Replace with your own links
 ```{=html}
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  // Give the title slide a clean URL hash (#/slide-title instead of #/title-slide)
+  var ts = document.getElementById('title-slide');
+  if (ts) ts.id = 'slide-title';
+
   // Countdown bar: sits above the RevealJS progress bar, runs right-to-left per slide
   var cdBar = document.createElement('div');
   cdBar.id = 'slide-countdown';
