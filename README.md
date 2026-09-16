@@ -10,15 +10,20 @@ A [Quarto RevealJS](https://quarto.org/docs/presentations/revealjs/) template fo
 
 1. Go to **[Use this template](https://github.com/new?template_name=lightning-talk-quarto-TEMPLATE&template_owner=satcamp)** on GitHub
 2. Create a new repository under your account
-3. Clone it locally and follow the setup steps below
+3. Enable GitHub Pages:
+   - Go to **Settings → Pages** in your new repo
+   - Under **Source**, select **GitHub Actions**
+   - Push any change to `main` — the workflow in `.github/workflows/publish.yml` will build and deploy automatically
+   - Your deck will be live at `https://<your-username>.github.io/<repo-name>/`
+4. Clone your repo locally and follow the local setup steps below
 
 ---
 
-## Setup
-
-This project uses [uv](https://docs.astral.sh/uv/) for Python dependencies.
+## Local Setup / Development
 
 ```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
 uv sync
 uv run quarto preview
 ```
@@ -37,12 +42,3 @@ Open the preview URL in your browser. The deck auto-advances — append `?noauto
 | Slide timing | `auto-slide: 15000` in the YAML frontmatter (value in milliseconds) |
 
 **Before presenting:** delete slide 19 ("Make it yours") so the deck has exactly 20 slides.
-
----
-
-## Enable GitHub Pages
-
-1. In your repo, go to **Settings → Pages**
-2. Under **Source**, select **GitHub Actions**
-3. Push any change to `main` — the workflow in `.github/workflows/publish.yml` will build and deploy automatically
-4. Your deck will be live at `https://<your-username>.github.io/<repo-name>/`
