@@ -13,11 +13,14 @@ A [Quarto RevealJS](https://quarto.org/docs/presentations/revealjs/) template fo
   - Give the repository a name.
   - Choose Public visibility (so you can create GitHub Pages)
   - Click **Create repository**
-2. Enable GitHub Pages:
+2. Build the slides:
+  - Push any change to `main` either using the GitHub.com website or by editing content locally (see below) — the workflow in `.github/workflows/publish.yml` will render the slides and push the resulting website to a `gh-pages` branch automatically!
+  - Wait for the **Publish Slides** workflow to finish (see the **Actions** tab). The `gh-pages` branch only exists after this first run.
+3. Enable GitHub Pages:
   - Go to **Settings → Pages** in your new repo
-  - Under **Source**, select **GitHub Actions**
-  - Push any change to `main` — the workflow in `.github/workflows/publish.yml` will build and deploy automatically
-  - Your deck will be live at `https://<your-username>.github.io/<repo-name>/`
+  - Under **Source**, select **Deploy from a branch**
+  - Under **Branch**, select **`gh-pages`** and **`/ (root)`**, then click **Save**
+  - Your deck will be live at `https://<your-username>.github.io/<repo-name>/` after a minute or two
     - [ ] Share this URL with the SatCamp organizers
 
 ---
