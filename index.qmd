@@ -199,7 +199,9 @@ You can add SVG graphics for line art, like the one below, by referencing an SVG
  Links
 
 [satcamp.xyz](https://satcamp.xyz)
+
 [Past lightning talks](https://satcamp.xyz/#sessions)
+
 [This template on GitHub](https://github.com/satcamp/lightning-talk-quarto-TEMPLATE)
 
 
